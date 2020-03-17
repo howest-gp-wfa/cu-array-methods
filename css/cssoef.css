@@ -1,0 +1,50 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 45% 45% ;
+    grid-gap: 10px;
+    background-color: white;
+    color: #444;
+  }
+  
+.box {
+    background-color: #444;
+    color: var(--blue);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 110%;
+}
+
+.wrapperLabelButton {
+    display: grid;
+    grid-template-columns: 100px 490px ;
+    grid-gap: 10px;
+    margin-bottom: 5px;
+}
+
+.arrayHeader {
+    text-align: center
+}
+
+label.head {
+    display:block;
+}
+
+button.small {
+    font-size: 12px;
+    display: inline;
+}
+
+.smallCaps {
+    font-size: 14px;
+    padding-top: 10px;
+    display:block;
+}
+
+.feedback {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.pinkText {
+    color: var(--pink);
+}
